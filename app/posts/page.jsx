@@ -4,7 +4,6 @@ import React from 'react'
 const Posts = async () => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts`);
     const data = await res.json();
-    console.log(data);
     
   return (
     <div className='bg-gray-100 p-3'>
